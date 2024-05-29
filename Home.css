@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .home-page {
+    text-align: center;
+    color: white; /* Ensure text color is white for visibility */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .header {
+    background: #7e1414;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header .overlay {
+    background: rgba(0, 0, 0, 0.4); /* Add a dark overlay to improve text visibility */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header .container {
+    max-width: 1200px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .header .btn {
+    padding: 15px 30px;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .header .btn-danger {
+    background-color: #5167f4;
+    border: none;
+  }
+  
+  .header .btn-outline-light:hover {
+    background-color: #fff;
+    color: #dc3545;
+  }
+  
+  .alumni-info-box {
+    background: #ecfeff;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(5, 68, 72);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+    max-width: 800px;
+    margin-top: 5px;
+    text-align: center; /* Center align the text within the box */
+    
+    
+  }
+  
+  .alumni-info-box h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .alumni-info-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .alumni-info-box p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+  }
+  
+  .alumni-info-box .btn {
+    background-color: #1e0590;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .alumni-info-box .btn:hover {
+    background-color: #218838;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .header h1 {
+      font-size: 2rem;
+    }
+  
+    .header h2 {
+      font-size: 1.5rem;
+    }
+  
+    .header p {
+      font-size: 1rem;
+    }
+  
+    .alumni-info-box {
+      padding: 20px;
+    }
+  
+    .alumni-info-box h2 {
+      font-size: 1.5rem;
+    }
+  
+    .alumni-info-box h3 {
+      font-size: 1.2rem;
+    }
+  
+    .alumni-info-box p {
+      font-size: 1rem;
+    }
+  
+    .alumni-info-box .btn {
+      padding: 10px 20px;
+    }
+  }
+  
